@@ -36,7 +36,7 @@ disqusShortname = "miti99"
     since = 2020
 
     # Git Commit in Footer, uncomment the line below to enable it.
-    commit = "https://gitlab.com/miti99/miti99.gitlab.io/-/tree/master/"
+    commit = "https://gitlab.com/miti99/miti99.gitlab.io/-/tree/"
 
     rtl = false
 
@@ -45,7 +45,7 @@ disqusShortname = "miti99"
     # "auto" (use preference set by browser)
     # "dark" (dark background, light foreground)
     # "light" (light background, dark foreground) (default)
-    colorscheme = "auto"
+    colorscheme = "light"
 
     # Series see also post count
     maxSeeAlsoItems = 5
@@ -71,15 +71,20 @@ disqusShortname = "miti99"
   tag = "tags"
 
 [[params.social]]
-    name = "Github"
-    icon = "fab fa-github"
-    weight = 2
-    url = "https://github.com/tien99/"
+    name = "Facebook"
+    icon = "fab fa-facebook"
+    weight = 0
+    url = "https://facebook.com/Tien.NM99"
 [[params.social]]
     name = "Gitlab"
     icon = "fab fa-gitlab"
     weight = 1
     url = "https://gitlab.com/miti99/"
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github"
+    weight = 2
+    url = "https://github.com/tien99/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
@@ -90,11 +95,6 @@ disqusShortname = "miti99"
     icon = "fab fa-linkedin"
     weight = 4
     url = "https://www.linkedin.com/in/miti99/"
-[[params.social]]
-    name = "Facebook"
-    icon = "fab fa-facebook"
-    weight = 0
-    url = "https://facebook.com/Tien.NM99"
 #[[params.social]]
 #    name = "RSS"
 #    icon = "fas fa-rss"
