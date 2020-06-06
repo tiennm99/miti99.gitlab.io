@@ -161,3 +161,7 @@ disqusShortname = "miti99"
             name = "Liên hệ"
             weight = 5
             url = "contact/"
+
+[module]
+  [module.hugoversion]
+    extended = true
