@@ -1,30 +1,14 @@
 +++
-title = "About Hugo"
+title = "About Me"
 slug = "about"
 +++
 
-Hugo is a static site engine written in Go.
+Xin chào, mừng bạn đã đến với trang của mình.
 
-It makes use of a variety of open source projects including:
+Mình là sinh viên ngành Khoa học Máy tính khóa 2017 tại trường Đại học Bách Khoa Tp.HCM.
 
-- [Cobra](https://github.com/spf13/cobra)
-- [Viper](https://github.com/spf13/viper)
-- [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-- [Cast](https://github.com/spf13/cast)
+Mình là một người thích Linux và kiểu mã nguồn mở như thế, hệ điều hành mình đang sử dụng là Archlinux và rất là thích nó.
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+Blog này được tạo ra với mục đích chia sẻ trải nghiệm của mình, cũng như mẹo để giải quyết một số vấn đề mà mình gặp phải trong quá trình sử dụng Archlinux nhé.
 
-## Setup
-
-Some fun facts about [Hugo](http://gohugo.io/):
-
-- Built in [Go](http://golang.org/)
-- Loosely inspired by [Jekyll](http://jekyllrb.com/)
-- Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-- Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
-
-Thanks for reading!
-
-Tải cv của tôi tại [đây](/cv/miti99.pdf)
+Các liên kết hữu ích có tại [trang chủ](/) của mình.
