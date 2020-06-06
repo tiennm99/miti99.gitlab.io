@@ -11,11 +11,16 @@ defaultcontentlanguage = "vi"
 paginate = 20
 canonifyurls = true
 
-pygmentsstyle = "b2"
+#pygmentsstyle = "b2"
+pygmentsstyle = "trac"
+pygmentsuseclasses = true
+
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 disqusShortname = "miti99"
+
+enableGitInfo = true
 
 [params]
     author = "miti99"
@@ -58,6 +63,7 @@ disqusShortname = "miti99"
 
     # Custom JS
     custom_js = []
+
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 #[params.fathomAnalytics]
