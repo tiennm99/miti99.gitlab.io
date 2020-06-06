@@ -36,7 +36,7 @@ disqusShortname = "miti99"
     since = 2020
 
     # Git Commit in Footer, uncomment the line below to enable it.
-    commit = "https://gitlab.com/miti99/miti99.gitlab.io/tree/master"
+    commit = "https://gitlab.com/miti99/miti99.gitlab.io/tree/"
 
     rtl = false
 
