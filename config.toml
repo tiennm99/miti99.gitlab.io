@@ -111,7 +111,7 @@ disqusShortname = "miti99"
         [languages.vi.menu]
 
             [[languages.vi.menu.main]]
-            name = "CV"
+            name = "Tải CV"
             weight = 0
             url="/cv/miti99.pdf"
 
@@ -145,8 +145,8 @@ disqusShortname = "miti99"
 
         [languages.en.menu]
 
-            [[languages.vi.menu.main]]
-            name = "CV"
+            [[languages.en.menu.main]]
+            name = "Download CV"
             weight = 0
             url="/cv/miti99.pdf"
 
