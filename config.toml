@@ -111,6 +111,11 @@ disqusShortname = "miti99"
         [languages.vi.menu]
 
             [[languages.vi.menu.main]]
+            name = "CV"
+            weight = 0
+            url="/cv/miti99.pdf"
+
+            [[languages.vi.menu.main]]
             name = "Giới thiệu"
             weight = 1
             url = "about/"
@@ -139,6 +144,11 @@ disqusShortname = "miti99"
             footercontent = "Nothinghere"
 
         [languages.en.menu]
+
+            [[languages.vi.menu.main]]
+            name = "CV"
+            weight = 0
+            url="/cv/miti99.pdf"
 
             [[languages.en.menu.main]]
             name = "About"
