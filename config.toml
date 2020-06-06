@@ -1,4 +1,4 @@
-baseurl = "http://miti99.gitlab.io/"
+baseurl = "https://miti99.gitlab.io"
 title = "MiTi99"
 
 assetDir="assets"
