@@ -19,12 +19,12 @@ disqusShortname = "miti99"
 
 [params]
     author = "miti99"
-    description = "miti99's personal website"
+    description = "Website cá nhân của Tiến"
     keywords = "blog,developer,personal"
-    info = "A student who loves Archlinux"
-    avatarurl = "images/avatar.jpg"
+    info = "Một sinh viên đam mê lập trình, yêu thích Archlinux"
+    avatarurl = "images/miti99.jpg"
     #gravatar = "john.doe@example.com"
-    footercontent = "Nothingtosay"
+    footercontent = "Ở đây không có gì :v"
 
     dateformat = "January 2, 2006"
 
@@ -72,27 +72,27 @@ disqusShortname = "miti99"
     name = "Github"
     icon = "fab fa-github"
     weight = 2
-    url = "https://github.com/johndoe/"
+    url = "https://github.com/tien99/"
 [[params.social]]
     name = "Gitlab"
     icon = "fab fa-gitlab"
     weight = 1
-    url = "https://gitlab.com/johndoe/"
+    url = "https://gitlab.com/miti99/"
 [[params.social]]
     name = "Twitter"
     icon = "fab fa-twitter"
     weight = 3
-    url = "https://twitter.com/johndoe/"
+    url = "https://twitter.com/tienthieusac/"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
     weight = 4
-    url = "https://www.linkedin.com/in/johndoe/"
+    url = "https://www.linkedin.com/in/miti99/"
 [[params.social]]
-    name = "Medium"
+    name = "Facebook"
     icon = "fab fa-facebook"
     weight = 0
-    url = "https://medium.com/@johndoe"
+    url = "https://facebook.com/Tien.NM99"
 #[[params.social]]
 #    name = "RSS"
 #    icon = "fas fa-rss"
@@ -101,44 +101,10 @@ disqusShortname = "miti99"
 #    rel = "alternate"
 #    type = "application/rss+xml"
 
-
 [languages]
-    [languages.en]
-        languagename = "English"
-
-        [languages.en.menu]
-
-            [[languages.en.menu.main]]
-            name = "About"
-            weight = 1
-            url = "about/"
-
-            [[languages.en.menu.main]]
-            name = "Blog"
-            weight = 2
-            url = "posts/"
-
-            [[languages.en.menu.main]]
-            name = "Projects"
-            weight = 3
-            url = "projects/"
-
-            [[languages.en.menu.main]]
-            name = "Contact me"
-            weight = 5
-            url = "contact/"
-
 
     [languages.vi]
         languagename = "Tiếng Việt"
-        title = "MiTi99"
-
-        [languages.vi.params]
-            author = "miti99"
-            info = "Một sinh viên đam mê lập trình, yêu thích Archlinux"
-            description = "Website cá nhân của Tiến"
-            keywords = "blog,lập trình viên,cá nhân"
-            footercontent = "Ở đây không có gì :v"
 
         [languages.vi.menu]
 
@@ -159,6 +125,36 @@ disqusShortname = "miti99"
 
             [[languages.vi.menu.main]]
             name = "Liên hệ"
+            weight = 5
+            url = "contact/"
+
+    [languages.en]
+        languagename = "English"
+
+        [languages.en.params]
+            info = "A student who loves Archlinux"
+            description = "miti99's personal website"
+            footercontent = "Nothinghere"
+
+        [languages.en.menu]
+
+            [[languages.en.menu.main]]
+            name = "About"
+            weight = 1
+            url = "about/"
+
+            [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 2
+            url = "posts/"
+
+            [[languages.en.menu.main]]
+            name = "Projects"
+            weight = 3
+            url = "projects/"
+
+            [[languages.en.menu.main]]
+            name = "Contact me"
             weight = 5
             url = "contact/"
 
