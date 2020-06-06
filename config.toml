@@ -23,6 +23,8 @@ disqusShortname = "miti99"
     keywords = "blog,developer,personal"
     info = "Một sinh viên đam mê lập trình, yêu thích Archlinux"
     avatarurl = "images/miti99.jpg"
+    favicon_32 = "images/logo/favicon.png"
+    favicon_16 = "images/logo/favicon.png"
     #gravatar = "john.doe@example.com"
     footercontent = "Ở đây không có gì :v"
 
