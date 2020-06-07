@@ -77,6 +77,11 @@ enableGitInfo = true
   tag = "tags"
 
 [[params.social]]
+    name = "Facebook Fanpage"
+    icon = "fab fa-facebook-f"
+    weight = -1
+    url = "https://facebook.com/miti99"
+[[params.social]]
     name = "Facebook"
     icon = "fab fa-facebook"
     weight = 0

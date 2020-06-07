@@ -5,7 +5,7 @@ slug = "about"
 
 Xin chào, mừng bạn đã đến với trang của mình.
 
-Mình là sinh viên ngành Khoa học Máy tính khóa 2017 tại trường Đại học Bách Khoa Tp.HCM.
+Mình tên Minh Tiến, sinh năm 1999 (vì vậy blog là miti99 :)))), sinh viên ngành Khoa học Máy tính khóa 2017 tại trường Đại học Bách Khoa Tp.HCM.
 
 Mình là một người thích Linux và kiểu mã nguồn mở như thế, hệ điều hành mình đang sử dụng là Archlinux và rất là thích nó.
 

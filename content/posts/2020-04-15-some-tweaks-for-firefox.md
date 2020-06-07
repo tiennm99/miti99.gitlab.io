@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2020-04-15T07:00:00+07:00
 title = "Tweaks nho nhỏ cho Firefox"
 description = ""

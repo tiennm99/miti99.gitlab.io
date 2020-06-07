@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2020-04-14T08:00:00+07:00
 title = "Dùng audio output làm input"
 description = ""
