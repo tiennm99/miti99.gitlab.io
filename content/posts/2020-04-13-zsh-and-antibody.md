@@ -47,7 +47,7 @@ yay -S antibody
 Tùy biến antibody: Ở đây mình hướng dẫn cơ bản thôi, zsh thì có file `~/.zshrc` là file source cũng như `~/.bashrc` của bash vậy đó. Nhưng antibody thì khuyến khích viết các plugin ở một file khác, vd như `~./.zsh_plugins.txt`, sau đó thì load antibody bằng 2 cách: tĩnh hoặc động.
 Sau đây là ví dụ về file `~./.zsh_plugins.txt` của mình:
 
-```shell
+```
 robbyrussell/oh-my-zsh
 
 robbyrussell/oh-my-zsh path:plugins/archlinux

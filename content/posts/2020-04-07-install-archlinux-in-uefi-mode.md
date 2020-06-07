@@ -16,7 +16,7 @@ Trước khi bắt đầu, thì mình cũng xin nói trước là mình biết n
 
 Ở đây mình hướng dẫn tạo bộ cài qua USB, nếu bạn dùng đĩa thì có thể tự tìm hiểu và làm.
 
-Đầu tiên các bạn tải file cài đặt mới nhất tại trang chủ của Arch Linux: <https://www.archlinux.org/download/>
+Đầu tiên các bạn tải file cài đặt mới nhất tại trang chủ của Arch Linux: https://www.archlinux.org/download/
 
 Nếu bạn dùng Windows thì sử dụng Rufus để tạo bộ cài (các bạn chọn chế độ boot BIOS mặc định là được, bộ cài sẽ nhận cả 2 chuẩn BIOS lẫn UEFI luôn, còn nếu chọn UEFI thôi thì có khi lại không được :v). Nếu bạn dùng Linux thì có thể dùng lệnh: `dd if=<đường dẫn đến file .iso> of=/dev/sdX bs=1MB` (với sdX là ổ USB) hoặc dùng GUI tools như Disks (`gnome-disks`) -> Restore Disk Image...
 
@@ -155,6 +155,6 @@ reboot
 
 Tuy nhiên mình khuyên bạn nên làm theo các bước "hậu cài đặt" trước khi reboot để có trải nghiệm tốt nhất, vì bạn chỉ mới có các gói cơ bản trên máy thôi, nên chưa thể dùng như Desktop được đâu. Mình sẽ viết bài cho điều này sớm nhất. Hẹn gặp lại các bạn.
 
-Tham khảo tại nguồn: <https://wiki.archlinux.org/index.php/Installation_guide>
+Tham khảo tại nguồn: https://wiki.archlinux.org/index.php/Installation_guide
 
 Chúc các bạn thành công! Nếu có gặp khó khăn gì, bạn có thể nhắn tin trên fanpage của mình, hoặc comment bên dưới, mình sẽ cố gắng giúp đỡ.
