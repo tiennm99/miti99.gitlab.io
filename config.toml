@@ -12,8 +12,6 @@ paginate = 20
 canonifyurls = true
 
 #pygmentsstyle = "b2"
-pygmentsstyle = "trac"
-pygmentsuseclasses = true
 
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
@@ -21,6 +19,9 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "miti99"
 
 enableGitInfo = true
+
+pygmentsStyle = "solarized-dark"
+pygmentsUseClassic = true
 
 [params]
     author = "miti99"

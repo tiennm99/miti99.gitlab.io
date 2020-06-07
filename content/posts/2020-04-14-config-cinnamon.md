@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2020-04-13T08:00:00+07:00
+date = 2020-04-14T07:00:00+07:00
 title = "Tinh chỉnh Cinnamon trong Archlinux"
 description = ""
 slug = "" 

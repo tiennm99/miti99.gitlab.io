@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2020-04-15T08:00:00+07:00
+date = 2020-04-20T07:00:00+07:00
 title = "Auto TRIM SSD"
 description = ""
 slug = "" 

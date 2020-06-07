@@ -1,6 +1,6 @@
 +++ 
 draft = false
-date = 2020-04-13T09:00:00+07:00
+date = 2020-04-17T07:00:00+07:00
 title = "Một số vấn đề gặp phải"
 description = ""
 slug = "" 

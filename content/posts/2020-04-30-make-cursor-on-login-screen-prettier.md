@@ -1,7 +1,7 @@
 +++ 
 draft = false
 date = 2020-04-30T07:00:00+07:00
-title = ""
+title = "Làm con trỏ chuột trên màn hình đăng nhập đẹp hơn"
 description = ""
 slug = "" 
 tags = ["Arch", "Linux", "Cursor"]
