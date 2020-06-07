@@ -5,7 +5,7 @@ title = "Một số vấn đề gặp phải"
 description = ""
 slug = "" 
 tags = ["Arch", "Linux", "Trouble"]
-categories = ["Archlinux"]
+categories = []
 externalLink = ""
 series = []
 +++

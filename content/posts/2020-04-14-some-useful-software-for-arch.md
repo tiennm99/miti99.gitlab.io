@@ -5,7 +5,7 @@ title = "Vài phần mềm thiết thực cho Archlinux"
 description = ""
 slug = "" 
 tags = ["Arch", "Linux"]
-categories = ["Archlinux"]
+categories = []
 externalLink = ""
 series = []
 +++
@@ -22,7 +22,7 @@ Bạn xem thêm tại: https://wiki.archlinux.org/index.php/List_of_applications
 
 ## Bộ gõ tiếng Việt
 
-Từ lâu, bộ gõ tiếng Việt trên Linux đã là một nỗi đau :v, tuy nhiên gần đây mình tìm được một bộ gõ khá là Ok, đó là [ibus-bamboo](https://github.com/BambooEngine/ibus-bamboo). Chế độ gõ mặc định thì cũng hao hao giống `ibus-unikey` thôi, nhưng bằng việc chuyển chế độ gõ (shortcut là Shift+~) thì bạn có thể chuyển sang chế độ gõ khác cho từng phần mềm, có tận 7 chế độ, bạn có thể chuyển cho phù hợp. VD mình chọn chế độ 4. ForwardKeyEvent II để viết blog này đấy. Để cài đặt:
+Từ lâu, bộ gõ tiếng Việt trên Linux đã là một nỗi đau :v, tuy nhiên gần đây mình tìm được một bộ gõ khá là Ok, đó là [ibus-bamboo](https://github.com/BambooEngine/ibus-bamboo). Chế độ gõ mặc định thì cũng hao hao giống `ibus-unikey` thôi, nhưng bằng việc chuyển chế độ gõ (shortcut là _Shift+~_) thì bạn có thể chuyển sang chế độ gõ khác cho từng phần mềm, có tận 7 chế độ, bạn có thể chuyển cho phù hợp. VD mình chọn chế độ 4. ForwardKeyEvent II để viết blog này đấy. Để cài đặt:
 
 ```shell
 yay -S ibus-bamboo

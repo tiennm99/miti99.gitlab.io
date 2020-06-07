@@ -1,11 +1,11 @@
 +++ 
 draft = false
-date = 2020-04-07T07:00:00+07:00
+date = 2020-04-07T08:00:00+07:00
 title = "'Hậu cài đặt' Archlinux"
 description = ""
 slug = "" 
 tags = ["Arch", "Linux"]
-categories = ["Archlinux"]
+categories = []
 externalLink = ""
 series = []
 +++

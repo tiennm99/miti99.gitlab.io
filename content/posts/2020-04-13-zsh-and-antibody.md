@@ -5,7 +5,7 @@ title = "Zsh và Antibody"
 description = ""
 slug = "" 
 tags = ["Arch", "Linux", "Zsh", "Antibody"]
-categories = ["Archlinux", "Zsh", "Antibody"]
+categories = []
 externalLink = ""
 series = []
 +++

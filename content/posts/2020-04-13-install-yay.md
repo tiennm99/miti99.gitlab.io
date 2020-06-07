@@ -5,7 +5,7 @@ title = "Cài đặt package trong AUR cho Archlinux"
 description = ""
 slug = "" 
 tags = ["Arch", "Linux", "yay"]
-categories = ["Archlinux"]
+categories = []
 externalLink = ""
 series = []
 +++

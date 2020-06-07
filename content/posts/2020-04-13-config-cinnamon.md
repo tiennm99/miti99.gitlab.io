@@ -5,7 +5,7 @@ title = "Tinh chỉnh Cinnamon trong Archlinux"
 description = ""
 slug = "" 
 tags = ["Arch", "Linux", "Cinnamon"]
-categories = ["Archlinux", "Cinnamon"]
+categories = []
 externalLink = ""
 series = []
 +++

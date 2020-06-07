@@ -5,7 +5,7 @@ title = "Cài đặt Archlinux trong chế độ boot UEFI"
 description = ""
 slug = "" 
 tags = ["Arch", "Linux"]
-categories = ["Archlinux"]
+categories = []
 externalLink = ""
 series = []
 +++
