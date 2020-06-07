@@ -17,9 +17,11 @@ Bài viết mình sẽ giới thiệu cách tinh chỉnh để quá trình build
 Để nhanh gọn, tránh dài dòng, mình sẽ hướng dẫn các bạn kiểu 'mì ăn liền' luôn nha!
 
 Cài đặt một số package cần thiết:
+
 ```shell
 yay -S ccache lzop xz pigz pbzip2 zstd
 ```
+
 Sau đó mở file `/etc/makepkg.conf`, tìm kiếm các chữ IN HOA, và sửa lại giống với dưới đây:
 
 ```shell

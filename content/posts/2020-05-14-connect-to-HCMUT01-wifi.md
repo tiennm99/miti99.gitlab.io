@@ -13,6 +13,7 @@ series = []
 Trong Windows thì khi kết nối bạn đã có chỗ để đăng nhập username và password sẵn, giờ mình sẽ hướng dẫn trên linux.
 
 Bạn chọn các mục như sau:
+
 ```
 Security: WPA & WPÀ Enterprise
 Authentication: Tunneled TLS
@@ -26,4 +27,5 @@ Inner authentication: PAP
 Username: (tên người dùng của bạn, giống với identity ở trên)
 Password: mật khẩu
 ```
+
 Vậy là xong, sau đó thì bạn connect thôi. Chúc các bạn thành công.

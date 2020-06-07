@@ -22,12 +22,15 @@ Include = /etc/pacman.d/mirrorlist
 ```
 
 Sau đó cập nhật lại hệ thống:
+
 ```shell
 yay (hoặc sudo pacman -Syyu)
 ```
+
 ## Cài Steam
 
 Và thế là có thể cài steam được rồi:
+
 ```shell
 yay -S steam
 ```
@@ -35,6 +38,7 @@ yay -S steam
 ## Chọn card màn hình rời để chơi game
 
 Thông thường thì dùng Linux cho laptop thì chắc chẳng ai quan tâm card màn hình rời nữa (cơ mà cài Linux mà chơi game là thấy cũng 'lạ' rồi :v). Tuy nhiên bạn vẫn có thể setting để chơi game sử dụng card màn hình rời trên Steam bằng cách đặt Lauch Option cho game như sau:
+
 ```
 DRI_PRIME=1 %command%
 ```
@@ -42,13 +46,17 @@ DRI_PRIME=1 %command%
 ## Tip nhỏ để cải thiện hiệu năng khi chơi game
 
 Bạn có thể cài thêm gamemode để tool tinh chỉnh cấu hình hệ thống của bạn khi chơi game:
+
 ```shell
 yay -S gamemode
 ```
+
 Sau đó khởi chạy service gamemoded:
+
 ```shell
 systemctl start gamemoded --user
 ```
+
 Để sử dụng, thì bạn đặt Lauch Option cho game như sau:
 
 ```

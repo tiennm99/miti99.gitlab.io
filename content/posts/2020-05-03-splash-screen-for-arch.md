@@ -15,25 +15,33 @@ Bài này mình sẽ hướng dẫn các bạn cài Plymouth làm Splash screen 
 **Note**: Mình chỉ hướng dẫn thôi chứ mình không còn dùng nữa. Vì mình cảm giác nó làm quá trình khởi động của mình chậm đi.
 
 ## Đầu tiên cần cài đặt Plymouth:
+
 ```shell
 yay -S plymouth
 ```
+
 Chỉnh sửa file `/etc/mkinitcpio.conf`: Thêm plymouth vào sau base và udev trong dòng HOOKS. VD như sau:
+
 ```
 HOOKS=(base udev plymouth ...)
 ```
+
 Trong file /etc/default/grub, sửa lại kernel parameters lại như sau:
+
 ```
 GRUB_CMDLINE_LINUX_DEFAULT=”quiet splash loglevel=3 rd.udev.log_priority=3 vt.global_cursor_default=0″
 ```
+
 Sau đó cập nhật lại grub nhé!
 
 Trên đó chỉ là ví dụ thôi, bạn có thể xem thêm về Silent Boot tại đây: https://wiki.archlinux.org/index.php/Silent_boot
 
 Khởi tạo lại initramfs:
+
 ```shell
 sudo mkinitcpio -P
 ```
+
 ## Sau đó cài đặt theme
 
 Trong AUR cũng có nhiều theme lắm rồi, bạn cũng có thể tự tìm thêm nguồn ngoài như trên GitHub... Sau đó copy vào folder `/usr/share/plymouth/themes`.
@@ -45,9 +53,11 @@ plymouth-set-default-theme -l
 ```
 
 Mặc định khi cài plymouth sẽ có các theme sau:
+
 ```
 details glow solar spinner tribar fade-in script spinfinity text
 ```
+
 Đổi theme, ví dụ là script:
 
 ```shell

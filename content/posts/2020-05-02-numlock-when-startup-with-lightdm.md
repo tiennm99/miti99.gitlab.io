@@ -11,12 +11,16 @@ series = []
 +++
 
 Cài đặt numlockx:
+
 ```shell
 yay -S numlockx
 ```
+
 Mở file `/etc/lightdm/lightdm.conf`, thêm dòng như sau:
+
 ```
 [Seat:*]
 greeter-setup-script=/usr/bin/numlockx on
 ```
+
 Vậy là xong!!
