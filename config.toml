@@ -32,7 +32,7 @@ pygmentsUseClassic = true
     favicon_32 = "images/logo/favicon.png"
     favicon_16 = "images/logo/favicon.png"
     #gravatar = "minhtienit99@gmail.com"
-    footercontent = "Cuộc sống vốn không công bằng, hãy tập quen dần với điều đó. _Bill Gates_ "
+    footercontent = "Ước mơ của bạn là gì? Ước mơ của tôi là trở thành một phù thủy..."
 
     dateformat = "January 2, 2006"
 
@@ -153,7 +153,7 @@ pygmentsUseClassic = true
         [languages.en.params]
             info = "A student who loves Archlinux"
             description = "miti99's personal website"
-            footercontent = "Life is not fair -- get used to it! _Bill Gates_"
+            footercontent = "What is your dream? My dream is to become a magician..."
 
         [languages.en.menu]
 
