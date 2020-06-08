@@ -34,7 +34,7 @@ GRUB_CMDLINE_LINUX_DEFAULT=”quiet splash loglevel=3 rd.udev.log_priority=3 vt.
 
 Sau đó cập nhật lại grub nhé!
 
-Trên đó chỉ là ví dụ thôi, bạn có thể xem thêm về Silent Boot tại đây: https://wiki.archlinux.org/index.php/Silent_boot
+Trên đó chỉ là ví dụ thôi, bạn có thể xem thêm về Silent Boot tại đây: <https://wiki.archlinux.org/index.php/Silent_boot>
 
 Khởi tạo lại initramfs:
 
