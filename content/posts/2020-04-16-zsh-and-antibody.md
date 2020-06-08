@@ -32,9 +32,9 @@ Mặc định thì zsh cũng chỉ là shell bình thường như bash thôi, nh
 
 Là dân pro thì bạn có thể tự tùy chỉnh bằng tay, bằng code để tùy biến zsh theo ý thích. Nhưng mình thì không được như vậy, nên mình sẽ giới thiệu đến các bạn framework oh-my-zsh khá nổi tiếng và plugin manager antibody. Ngày trước thì có antigen, nhưng mình thấy antigen đã không còn được phát triển nữa, thay vào đó là antibody, được so sánh với hiệu năng tốt hơn (mặc dù mình thấy việc tích hợp ohmyzsh vào antibody có phần khập khiễng hơn so với antigen). Các bạn có thể xem thông tin thêm tại trang chủ của mấy cái trên nha:
 
-- https://github.com/robbyrussell/oh-my-zsh
-- https://github.com/getantibody/antibody
-- https://github.com/zsh-users/antigen
+- <https://github.com/robbyrussell/oh-my-zsh>
+- <https://github.com/getantibody/antibody>
+- <https://github.com/zsh-users/antigen>
 
 Để cài antibody cho Arch:
 
@@ -47,7 +47,7 @@ yay -S antibody
 Tùy biến antibody: Ở đây mình hướng dẫn cơ bản thôi, zsh thì có file `~/.zshrc` là file source cũng như `~/.bashrc` của bash vậy đó. Nhưng antibody thì khuyến khích viết các plugin ở một file khác, vd như `~./.zsh_plugins.txt`, sau đó thì load antibody bằng 2 cách: tĩnh hoặc động.
 Sau đây là ví dụ về file `~./.zsh_plugins.txt` của mình:
 
-```
+```shell
 robbyrussell/oh-my-zsh
 
 robbyrussell/oh-my-zsh path:plugins/archlinux

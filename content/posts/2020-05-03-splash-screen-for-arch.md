@@ -14,7 +14,7 @@ Bài này mình sẽ hướng dẫn các bạn cài Plymouth làm Splash screen 
 
 **Note**: Mình chỉ hướng dẫn thôi chứ mình không còn dùng nữa. Vì mình cảm giác nó làm quá trình khởi động của mình chậm đi.
 
-## Đầu tiên cần cài đặt Plymouth:
+## Đầu tiên cần cài đặt Plymouth
 
 ```shell
 yay -S plymouth
@@ -22,13 +22,13 @@ yay -S plymouth
 
 Chỉnh sửa file `/etc/mkinitcpio.conf`: Thêm plymouth vào sau base và udev trong dòng HOOKS. VD như sau:
 
-```
+```shell
 HOOKS=(base udev plymouth ...)
 ```
 
 Trong file /etc/default/grub, sửa lại kernel parameters lại như sau:
 
-```
+```shell
 GRUB_CMDLINE_LINUX_DEFAULT=”quiet splash loglevel=3 rd.udev.log_priority=3 vt.global_cursor_default=0″
 ```
 
@@ -54,7 +54,7 @@ plymouth-set-default-theme -l
 
 Mặc định khi cài plymouth sẽ có các theme sau:
 
-```
+```shell
 details glow solar spinner tribar fade-in script spinfinity text
 ```
 

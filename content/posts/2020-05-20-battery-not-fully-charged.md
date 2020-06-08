@@ -20,7 +20,7 @@ sudo tlp-stat -b
 
 Ví dụ output hiện tại của mình như sau:
 
-```
+```shell
 --- TLP 1.3.1 --------------------------------------------
 +++ Battery Features: Charge Thresholds and Recalibrate
 natacpi = active (data, thresholds)

@@ -10,7 +10,7 @@ externalLink = ""
 series = []
 +++
 
-#### Cài đặt TLP:
+#### Cài đặt TLP
 
 ```shell
 yay -S tlp tlp-rdw

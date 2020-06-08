@@ -14,8 +14,8 @@ Trong Windows thì khi kết nối bạn đã có chỗ để đăng nhập user
 
 Bạn chọn các mục như sau:
 
-```
-Security: WPA & WPÀ Enterprise
+```shell
+Security: WPA & WPA Enterprise
 Authentication: Tunneled TLS
 Anonymous identity: (tên người dùng của bạn, tên này là tên bạn đăng nhập vào myBK ấy)
 Domain: hcmut.edu.vn

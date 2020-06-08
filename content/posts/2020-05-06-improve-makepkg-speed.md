@@ -10,8 +10,6 @@ externalLink = ""
 series = []
 +++
 
-# Tăng tốc độ build file từ AUR
-
 Bài viết mình sẽ giới thiệu cách tinh chỉnh để quá trình build file từ AUR được nhanh hơn. Tuy nhiên cái lợi cũng có cái nguy cơ đi kèm, có khả năng là bạn sẽ gặp phải một lỗi gì đó, ở đâu đấy trong vài trường hợp :v
 
 Để nhanh gọn, tránh dài dòng, mình sẽ hướng dẫn các bạn kiểu 'mì ăn liền' luôn nha!
@@ -37,6 +35,6 @@ BUILDENV=(!distcc color ccache check !sign)
 MAKEFLAGS="-j$(nproc)"
 ```
 
-Tham khảo tại : https://wiki.archlinux.org/index.php/Makepkg
+Tham khảo tại : <https://wiki.archlinux.org/index.php/Makepkg>
 
 Chúc các bạn thành công!

@@ -16,7 +16,7 @@ Có thể nói Steam là một nền tảng hiếm hoi ưu ái cho Linux, trong 
 
 Để cài đặt Steam thì trước hết ta cần kích hoạt repo `multi-lib` cho Arch, repo này chứa các thư viện 32bit, nhằm để phục vụ cho các nền tảng như Steam hay Wine. Để kích hoạt repo này, ta mở file `/etc/pacman.conf`, và uncomment 2 dòng sau:
 
-```
+```shell
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 ```
@@ -39,7 +39,7 @@ yay -S steam
 
 Thông thường thì dùng Linux cho laptop thì chắc chẳng ai quan tâm card màn hình rời nữa (cơ mà cài Linux mà chơi game là thấy cũng 'lạ' rồi :v). Tuy nhiên bạn vẫn có thể setting để chơi game sử dụng card màn hình rời trên Steam bằng cách đặt Lauch Option cho game như sau:
 
-```
+```shell
 DRI_PRIME=1 %command%
 ```
 
@@ -59,7 +59,7 @@ systemctl start gamemoded --user
 
 Để sử dụng, thì bạn đặt Lauch Option cho game như sau:
 
-```
+```shell
 gamemoderun %command%
 ```
 

@@ -18,7 +18,7 @@ yay -S systemd-swap
 
 Trong file `/etc/systemd/swap.conf` cài đặt như sau:
 
-```
+```shell
 swapfc_enabled=1
 ```
 

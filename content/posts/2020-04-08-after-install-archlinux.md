@@ -21,7 +21,7 @@ pacman -S xorg-server
 pacman -S cinnamon
 ```
 
-Ở đây mình dùng desktop environment (DE) là cinnamon; sau này các bài hướng dẫn mình cũng hướng dẫn cho cinnamon thôi. Arch hỗ trợ rất nhiều DE khác nhau được liệt kê ở https://wiki.archlinux.org/index.php/Desktop_environment, các bạn có thể chọn một DE khác thích hợp như Gnome, KDE,... Đặc biệt Arch có hỗ trợ i3, một DE có thể nói là 'dành cho lập trình viên' rất 'cool', nhưng mình không pro như thế nên chưa dùng được :v Vì cinnamon cũng dựa trên gtk nên các bạn có thể cài đặt gnome để có những phần mềm bổ sung thêm khác
+Ở đây mình dùng desktop environment (DE) là cinnamon; sau này các bài hướng dẫn mình cũng hướng dẫn cho cinnamon thôi. Arch hỗ trợ rất nhiều DE khác nhau được liệt kê ở <https://wiki.archlinux.org/index.php/Desktop_environment,> các bạn có thể chọn một DE khác thích hợp như Gnome, KDE,... Đặc biệt Arch có hỗ trợ i3, một DE có thể nói là 'dành cho lập trình viên' rất 'cool', nhưng mình không pro như thế nên chưa dùng được :v Vì cinnamon cũng dựa trên gtk nên các bạn có thể cài đặt gnome để có những phần mềm bổ sung thêm khác
 
 ```shell
 pacman -S lightdm lightdm-gtk-greeter
@@ -51,7 +51,7 @@ useradd -m -G wheel -s /bin/bash tien
 
 (-m để hệ thống tạo một thư mục home cho bạn, vd ở đây là /home/tien; -G wheel để thêm bạn vào group wheel, group này dùng để cấp quyền sudo cho bạn sau này; -s /bin/bash, shell của bạn, ở đây mình dùng bash, sau này mình viết bài giới thiệu cho các bạn về zsh, một shell dễ tùy chỉnh hơn; tien là tên người dùng bạn muốn tạo, mình tên Tiến thì tạo tên tien thôi :v)
 
-#### Cấp quyền sudo:
+### Cấp quyền sudo
 
 ```shell
 pacman -S sudo

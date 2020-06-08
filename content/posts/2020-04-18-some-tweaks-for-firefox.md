@@ -34,7 +34,7 @@ yay -S profile-sync-daemon
 
 Sau đó sửa file `~/.config/psd/psd.conf` lại, thêm firefox vào list BROWSERS, VD:
 
-```
+```shell
 BROWSERS=”firefox”
 ```
 
@@ -45,6 +45,6 @@ Khởi chạy Profile-sync-daemon cùng hệ thống:
 systemctl --user enable psd.service
 ```
 
-Vậy là xong rồi, các bạn có thể tham khảo thêm nhiều tweaks khác tại: https://wiki.archlinux.org/index.php/Firefox/Tweaks
+Vậy là xong rồi, các bạn có thể tham khảo thêm nhiều tweaks khác tại: <https://wiki.archlinux.org/index.php/Firefox/Tweaks>
 
 Hẹn gặp lại trong các bài viết khác nhé!

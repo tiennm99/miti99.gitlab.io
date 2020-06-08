@@ -18,7 +18,7 @@ Web browser là một thành phần quan trọng phải không nào, để lư�
 Chrome: `yay -S google-chrome`  
 Firefox: `yay -S firefox`  
 Ngoài ra còn có các browser khác như: Brave (`brave-bin`), Chromium (`chromium`), Opera (`opera`), Vivaldi (`vivaldi`),...  
-Bạn xem thêm tại: https://wiki.archlinux.org/index.php/List_of_applications/Internet#Web_browsers nhé!
+Bạn xem thêm tại: <https://wiki.archlinux.org/index.php/List_of_applications/Internet#Web_browsers> nhé!
 
 ## Bộ gõ tiếng Việt
 
@@ -54,7 +54,7 @@ yay -S libreoffice-fresh
 
 Ngoài Libre ra thì Arch còn có kha khá các bản Office khác cho bạn lựa chọn: Calligra (`calligra`), Only Office (`onlyoffice-bin`), Open Office (`openoffice`), Softmaker Office (`freeoffice`) và WPS Office (`wps-office`) cùng với những phần mềm 'rời', thay thế cho từng phần mềm trong các bộ office. Với LibreOffice thì ibus đã hoạt động khá mượt rồi, tuy nhiên với các bộ khác thì mình thấy phải thêm vào `/etc/profile` các dòng sau:
 
-```
+```shell
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
@@ -96,7 +96,7 @@ yay -S dropbox
 
 Ngoài ra thì cũng có nhiều host hỗ trợ linux lắm, như MEGA (`megasync`), Nextcloud (`nextclout-client` nếu bạn dùng host của người ta),...
 Bạn có thể tham khảo một số host khác được đề cập tại đây:
-https://wiki.archlinux.org/index.php/List_of_applications/Internet#Cloud_synchronization_clients
+<https://wiki.archlinux.org/index.php/List_of_applications/Internet#Cloud_synchronization_clients>
 
 ## Tools lập trình
 

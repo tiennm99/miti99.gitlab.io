@@ -30,7 +30,7 @@ Trước tiên thì bạn nên cài đặt gói base-devel trước, đây là g
 sudo pacman -S base-devel
 ```
 
-Sau đó clone package từ link của AUR về, ở đây mình ví dụ là yay (https://aur.archlinux.org/packages/yay/):
+Sau đó clone package từ link của AUR về, ở đây mình ví dụ là yay (<https://aur.archlinux.org/packages/yay/):>
 
 ```shell
 git clone https://aur.archlinux.org/yay.git`

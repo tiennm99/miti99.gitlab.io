@@ -16,7 +16,7 @@ Trước khi bắt đầu, thì mình cũng xin nói trước là mình biết n
 
 Ở đây mình hướng dẫn tạo bộ cài qua USB, nếu bạn dùng đĩa thì có thể tự tìm hiểu và làm.
 
-Đầu tiên các bạn tải file cài đặt mới nhất tại trang chủ của Arch Linux: https://www.archlinux.org/download/
+Đầu tiên các bạn tải file cài đặt mới nhất tại trang chủ của Arch Linux: <https://www.archlinux.org/download/>
 
 Nếu bạn dùng Windows thì sử dụng Rufus để tạo bộ cài (các bạn chọn chế độ boot BIOS mặc định là được, bộ cài sẽ nhận cả 2 chuẩn BIOS lẫn UEFI luôn, còn nếu chọn UEFI thôi thì có khi lại không được :v). Nếu bạn dùng Linux thì có thể dùng lệnh: `dd if=<đường dẫn đến file .iso> of=/dev/sdX bs=1MB` (với sdX là ổ USB) hoặc dùng GUI tools như Disks (`gnome-disks`) -> Restore Disk Image...
 
@@ -93,23 +93,23 @@ Cài các gói cần thiết bằng lệnh sau: `pacstrap /mnt base linux linux-
 
 Sau đây là các tinh chỉnh để hệ thống hoạt động.
 
-#### Tạo file fstab:
+### Tạo file fstab
 
 Để mount các phân vùng khi khởi động: `genfstab -U /mnt >> /mnt/etc/fstab` (có thể thay -U bằng -L, nghĩa là thay vì định nghĩa bằng UUID thì định nghĩa bằng nhãn của phân vùng)
 
-#### Change root vào hệ thống mới:
+#### Change root vào hệ thống mới
 
 `arch-chroot /mnt`
 
-#### Thiết lập time zone:
+#### Thiết lập time zone
 
 Chúng ta ở Việt Nam sẽ chọn thành phố Hồ Chí Minh: `ln -sf /usr/share/zoneinfo/Asia/Ho_Chi_Minh /etc/localtime`. Đồng bộ giờ: `hwclock --systohc`
 
-#### Định dạng vùng:
+#### Định dạng vùng
 
 Đầu tiên nên cài đặt vim để có thể chỉnh sửa file văn bản: `pacman -S vim`. Sau đó sửa file sau: `vim /etc/locale.gen` Uncomment dòng _en_us.UTF-8 UTF-8_ (và dòng _vi_VN UTF-8_ nếu thích :v) (bạn nhấn phím _i_ để vào chế độ insert mới sửa được), lưu lại và thoát (_Esc_, sau đó gõ `:wq` sau đó chạy lệnh: `locale-gen`. Tiếp tục sửa một file khác: `vim /etc/locale.conf`. Thêm vào đây dòng sau _LANG=en_US.UTF-8_
 
-#### Thiết lập mạng:
+#### Thiết lập tên máy tính trong mạng
 
 Sửa file `/etc/hostname`, _myhostname_ vào đó (với _myhostname_ là tên bạn muốn đặt cho máy tính của bạn). Tương tự, sửa file `/etc/hosts` với các thông số như sau:
 
@@ -155,6 +155,6 @@ reboot
 
 Tuy nhiên mình khuyên bạn nên làm theo các bước "hậu cài đặt" trước khi reboot để có trải nghiệm tốt nhất, vì bạn chỉ mới có các gói cơ bản trên máy thôi, nên chưa thể dùng như Desktop được đâu. Mình sẽ viết bài cho điều này sớm nhất. Hẹn gặp lại các bạn.
 
-Tham khảo tại nguồn: https://wiki.archlinux.org/index.php/Installation_guide
+Tham khảo tại nguồn: <https://wiki.archlinux.org/index.php/Installation_guide>
 
 Chúc các bạn thành công! Nếu có gặp khó khăn gì, bạn có thể nhắn tin trên fanpage của mình, hoặc comment bên dưới, mình sẽ cố gắng giúp đỡ.

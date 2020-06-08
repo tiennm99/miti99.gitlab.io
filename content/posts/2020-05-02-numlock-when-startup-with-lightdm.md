@@ -18,7 +18,7 @@ yay -S numlockx
 
 Mở file `/etc/lightdm/lightdm.conf`, thêm dòng như sau:
 
-```
+```shell
 [Seat:*]
 greeter-setup-script=/usr/bin/numlockx on
 ```
