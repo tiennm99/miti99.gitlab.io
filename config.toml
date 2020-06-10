@@ -27,7 +27,7 @@ pygmentsUseClassic = true
     author = "miti99"
     description = "Website cá nhân của Tiến"
     keywords = "blog,developer,personal"
-    info = "Một sinh viên đam mê lập trình, yêu thích Archlinux"
+    info = "Một sinh viên đam mê lập trình, yêu thích Linux"
     avatarurl = "images/miti99.png"
     favicon_32 = "images/logo/favicon.png"
     favicon_16 = "images/logo/favicon.png"
@@ -138,20 +138,15 @@ pygmentsUseClassic = true
             url = "posts/"
 
             [[languages.vi.menu.main]]
-            name = "Dự án"
-            weight = 3
-            url = "projects/"
-
-            [[languages.vi.menu.main]]
             name = "Liên hệ"
-            weight = 5
+            weight = 3
             url = "contact/"
 
     [languages.en]
         languagename = "English"
 
         [languages.en.params]
-            info = "A student who loves Archlinux"
+            info = "A student who loves programming & Linux"
             description = "miti99's personal website"
             footercontent = "What is your dream? My dream is to become a magician..."
 
@@ -173,13 +168,8 @@ pygmentsUseClassic = true
             url = "posts/"
 
             [[languages.en.menu.main]]
-            name = "Projects"
-            weight = 3
-            url = "projects/"
-
-            [[languages.en.menu.main]]
             name = "Contact me"
-            weight = 5
+            weight = 3
             url = "contact/"
 
 [module]
