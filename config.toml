@@ -1,8 +1,6 @@
 baseurl = "https://miti99.gitlab.io"
 title = "MiTi99"
 
-assetDir="assets"
-
 theme = "hugo-coder"
 
 languagecode = "vi"
@@ -171,7 +169,7 @@ pygmentsUseClassic = true
             name = "Contact me"
             weight = 3
             url = "contact/"
-
+ 
 [module]
   [module.hugoversion]
     extended = true
