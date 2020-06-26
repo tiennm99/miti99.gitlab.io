@@ -117,6 +117,8 @@ EOPLUGINS
 
 fi
 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#120299,bg=cyan"
+
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 ```
 
