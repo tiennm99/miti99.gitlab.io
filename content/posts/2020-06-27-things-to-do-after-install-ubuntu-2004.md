@@ -46,18 +46,15 @@ sudo apt install zsh
 chsh -s /usr/bin/zsh
 ```
 
-Cài đặt công cụ quản lý zsh plugins: `zplug`
+Cài đặt công cụ quản lý zsh plugins: `zgen`. Mặc dù `zgen` đã cũ nhưng mà mình thấy trong những công cụ khác trong repository của Ubuntu là `zplug` và `zsh-antigen` thì `zgen` đơn giản và nhẹ hơn nhiều.
 
 ```shell
-sudo apt install zplug
+sudo apt install zgen
 ```
 
 Chỉnh sửa file `.zshrc` của bạn lại cho phù hợp, ví dụ của mình như sau:
 
 ```shell
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
@@ -68,73 +65,58 @@ export XMODIFIERS=@im=ibus
 export QT4_IM_MODULE=ibus
 export CLUTTER_IM_MODULE=ibus
 
-export HISTFILE=~/.zsh_history
-export HISTSIZE=10000
-export SAVEHIST=10000
-setopt append_history
-setopt INC_APPEND_HISTORY
-setopt hist_expire_dups_first
-setopt hist_fcntl_lock
-setopt hist_ignore_all_dups
-setopt hist_lex_words
-setopt hist_reduce_blanks
-setopt hist_save_no_dups
-setopt share_history
-setopt HIST_IGNORE_SPACE
-
 eval $(thefuck --alias)
 
-source /usr/share/zplug/init.zsh
+source "/usr/share/zgen/zgen.zsh"
 
-zplug "desyncr/auto-ls"
-zplug "djui/alias-tips"
-zplug "srijanshetty/node.plugin.zsh"
-zplug "voronkovich/mysql.plugin.zsh"
-zplug "zlsun/solarized-man"
-zplug "zpm-zsh/ls"
-zplug "zpm-zsh/ssh"
-zplug "zsh-users/zsh-completions"
-zplug "zsh-users/zsh-autosuggestions"
-zplug "zsh-users/zsh-syntax-highlighting", defer:2
-zplug "zsh-users/zsh-history-substring-search"
+if ! zgen saved; then
 
-zplug "plugins/alias-finder", from:oh-my-zsh
-zplug "plugins/colored-man-pages", from:oh-my-zsh
-zplug "plugins/colorize", from:oh-my-zsh
-zplug "plugins/command-not-found", from:oh-my-zsh
-zplug "plugins/common-aliases", from:oh-my-zsh
-zplug "plugins/extract", from:oh-my-zsh
-zplug "plugins/git", from:oh-my-zsh
-zplug "plugins/git-auto-fetch", from:oh-my-zsh
-zplug "plugins/gitignore", from:oh-my-zsh
-zplug "plugins/golang", from:oh-my-zsh
-zplug "plugins/gpg-agent", from:oh-my-zsh
-zplug "plugins/history", from:oh-my-zsh
-zplug "plugins/node", from:oh-my-zsh
-zplug "plugins/npm", from:oh-my-zsh
-zplug "plugins/python", from:oh-my-zsh
-zplug "plugins/sudo", from:oh-my-zsh
-zplug "plugins/systemd", from:oh-my-zsh
-zplug "plugins/thefuck", from:oh-my-zsh
-zplug "plugins/ubuntu", from:oh-my-zsh
-zplug "plugins/vscode", from:oh-my-zsh
-zplug "plugins/wd", from:oh-my-zsh
-zplug "plugins/z", from:oh-my-zsh
+  zgen oh-my-zsh
 
-zplug 'romkatv/powerlevel10k', as:theme
+  zgen oh-my-zsh plugins/alias-finder
+  zgen oh-my-zsh plugins/colored-man-pages
+  zgen oh-my-zsh plugins/colorize
+  zgen oh-my-zsh plugins/command-not-found
+  zgen oh-my-zsh plugins/common-aliases
+  zgen oh-my-zsh plugins/extract
+  zgen oh-my-zsh plugins/git
+  zgen oh-my-zsh plugins/git-auto-fetch
+  zgen oh-my-zsh plugins/gitignore
+  zgen oh-my-zsh plugins/golang
+  zgen oh-my-zsh plugins/gpg-agent
+  zgen oh-my-zsh plugins/history
+  zgen oh-my-zsh plugins/node
+  zgen oh-my-zsh plugins/npm
+  zgen oh-my-zsh plugins/python
+  zgen oh-my-zsh plugins/sudo
+  zgen oh-my-zsh plugins/systemd
+  zgen oh-my-zsh plugins/thefuck
+  zgen oh-my-zsh plugins/ubuntu
+  zgen oh-my-zsh plugins/vscode
+  zgen oh-my-zsh plugins/wd
+  zgen oh-my-zsh plugins/z
 
-if ! zplug check --verbose; then
-    printf "Install? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    fi
+  zgen loadall <<EOPLUGINS
+    desyncr/auto-ls
+    djui/alias-tips
+    srijanshetty/node.plugin.zsh
+    voronkovich/mysql.plugin.zsh
+    zlsun/solarized-man
+    zpm-zsh/ls
+    zpm-zsh/ssh
+    zsh-users/zsh-autosuggestions
+    zsh-users/zsh-syntax-highlighting
+    zsh-users/zsh-history-substring-search
+EOPLUGINS
+
+  zgen load zsh-users/zsh-completions src
+
+  zgen load romkatv/powerlevel10k powerlevel10k
+
+  zgen save
+
 fi
 
-zplug load #--verbose
-
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#120299,bg=cyan"
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 ```
 
