@@ -1,5 +1,5 @@
 +++ 
-draft = false
+draft = true
 date = 2020-06-26T07:00:00+07:00
 title = "Trở lại với Ubuntu"
 description = ""
