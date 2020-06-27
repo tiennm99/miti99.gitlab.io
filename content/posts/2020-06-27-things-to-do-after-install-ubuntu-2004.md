@@ -1,5 +1,5 @@
 +++ 
-draft = false
+draft = true
 date = 2020-06-27T07:00:00+07:00
 title = "Những việc cần làm sau khi cài đặt Ubuntu 20.04"
 description = ""
