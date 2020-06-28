@@ -140,7 +140,8 @@ yay -S meld
 Khi cài nhóm gnome thì bạn đã có sẵn gnome-boxes rồi, tuy nhiên thì mình vẫn thấy VirtualBox là nhất trên Linux :v Lưu ý là bạn cần cài thêm linux-headers (nếu bạn dùng kernel mặc định của Arch) để mà cài dkms nhé!
 
 ```shell
-yay -S linux-headersyay -S virtualbox
+yay -S linux-headers
+yay -S virtualbox
 ```
 
 ## Phần mềm dọn dẹp rác

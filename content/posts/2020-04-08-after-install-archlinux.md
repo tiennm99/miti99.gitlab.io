@@ -30,13 +30,13 @@ pacman -S lightdm lightdm-gtk-greeter
 Mình dùng LightDM làm display manager, nếu bạn dùng gnome thì mặc định đã có gdm được cài rồi
 
 ```shell
-sudo systemctl enable lightdm
+systemctl enable lightdm
 ```
 
 Để service của LightDM khởi động cùng hệ thống, nếu dùng DM khác thì bạn thay tên vào đó
 
 ```shell
-sudo systemctl enable NetworkManger
+systemctl enable NetworkManger
 ```
 
 (đây là service quản lý mạng (chủ yếu là để kết nối wifi dễ dàng hơn))
@@ -73,7 +73,7 @@ Bỏ comment ở dòng `wheel ALL=(ALL) ALL`, vậy là được, lưu lại và
 Nếu bạn chỉ cài cinnamon thì ban đầu bạn sẽ chưa có terminal nào, nếu muốn dùng lệnh thì sẽ phải vào TTY khác (Ctrl + Alt + Fx(x từ 2 đến 6 ấy). Ở đây mình cài Terminator nhé:
 
 ```shell
-sudo pacman -S terminator
+pacman -S terminator
 ```
 
 Vậy là bạn đã có một hệ thống 'có thể dùng được' rồi đấy, sau này mình sẽ có các bài làm đẹp Arch, tinh chỉnh Arch,.. nữa. Hẹn gặp lại!!
