@@ -125,6 +125,6 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#120299,bg=cyan"
 4. Cài đặt `tlp`
 
 ```shell
-sudo apt instlal tlp
+sudo apt install tlp
 sudo tlp start
 ```

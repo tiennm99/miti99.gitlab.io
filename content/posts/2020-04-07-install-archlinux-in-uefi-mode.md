@@ -10,7 +10,7 @@ externalLink = ""
 series = []
 +++
 
-Trước khi bắt đầu, thì mình cũng xin nói trước là mình biết nếu bạn là "dân chơi" dám thử cài Arch Linux thì hẳn bạn không phải "tay mơ" rồi, và bạn có thể tự cài mà không cần hướng dẫn của mình. Bài viết của mình chủ yếu mang mục đích là chia sẻ kinh nghiệm cài Arch của mình thôi, chứ không mang tính hướng dẫn hay giúp đỡ gỡ rối gì. Nếu bạn gặp khó khăn, có thể nhắn tin vào fanpage, mình sẽ xem và hỗ trợ bạn nếu có thể. Còn nếu bạn là người mới hoặc có ý định bước vào thế giới Linux, mình khuyên bạn nên thử dùng các phiên bản dành cho người mới trước như [Ubuntu](https://ubuntu.com/) hay nếu bạn nguốn trải nghiệm sơ bộ Arch thì [Manjaro](https://manjaro.org/) cũng là một lựa chọn không tồi (base on Arch va đứng top bảng xếp hạng nhiêu lần mà) trước khi bắt đầu thử Arch. Sau đây là các bước tiến hành:
+Trước khi bắt đầu, thì mình cũng xin nói trước là mình biết nếu bạn là "dân chơi" dám thử cài Arch Linux thì hẳn bạn không phải "tay mơ" rồi, và bạn có thể tự cài mà không cần hướng dẫn của mình. Bài viết của mình chủ yếu mang mục đích là chia sẻ kinh nghiệm cài Arch của mình thôi, chứ không mang tính hướng dẫn hay giúp đỡ gỡ rối gì. Nếu bạn gặp khó khăn, hãy comment bên dưới bài viết, mình sẽ xem và hỗ trợ bạn nếu có thể. Còn nếu bạn là người mới hoặc có ý định bước vào thế giới Linux, mình khuyên bạn nên thử dùng các phiên bản dành cho người mới trước như [Ubuntu](https://ubuntu.com/) hay nếu bạn nguốn trải nghiệm sơ bộ Arch thì [Manjaro](https://manjaro.org/) cũng là một lựa chọn không tồi (base on Arch và đứng top bảng xếp hạng nhiều lần mà) trước khi bắt đầu thử Arch. Sau đây là các bước tiến hành:
 
 ## Tạo bộ cài
 
@@ -30,7 +30,7 @@ iwctl
 device list
 ```
 
-Lúc này sẽ hiện ra tên các thiết bị wifi của bạn, giả sử là wlan0, nếu không phải thì thay wlan0 ở các lệnh sau bằng tên thích hợp của máy bạn:
+Lúc này sẽ hiện ra tên các thiết bị wifi của bạn, giả sử là `wlan0`, nếu không phải thì thay `wlan0` ở các lệnh sau bằng tên thích hợp của máy bạn:
 
 ```shell
 station wlan0 scan
@@ -52,7 +52,7 @@ Thử kết nối với internet bằng lệnh: `ping google.com -c2`
 
 ## Phân vùng ổ đĩa
 
-Ở đây mình dùng lệnh fdisk, bạn có thể dùng lệnh khác.  
+Ở đây mình dùng lệnh `fdisk`, bạn có thể dùng lệnh khác.  
 **Lưu ý:** Arch Linux khuyến khích phân vùng EFI từ 260-512MiB; phân vùng SWAP từ 512MiB. SWAP là cần thiết, tuy nhiên sau khi cài mình sẽ dùng swap file nên không tạo phân vùng này.
 
 ```shell
@@ -95,7 +95,7 @@ Sau đây là các tinh chỉnh để hệ thống hoạt động.
 
 ### Tạo file fstab
 
-Để mount các phân vùng khi khởi động: `genfstab -U /mnt >> /mnt/etc/fstab` (có thể thay -U bằng -L, nghĩa là thay vì định nghĩa bằng UUID thì định nghĩa bằng nhãn của phân vùng)
+Để mount các phân vùng khi khởi động: `genfstab -U /mnt >> /mnt/etc/fstab` (có thể thay `-U` bằng `-L`, nghĩa là thay vì định nghĩa bằng UUID thì định nghĩa bằng label của phân vùng)
 
 #### Change root vào hệ thống mới
 
@@ -157,4 +157,4 @@ Tuy nhiên mình khuyên bạn nên làm theo các bước "hậu cài đặt" t
 
 Tham khảo tại nguồn: <https://wiki.archlinux.org/index.php/Installation_guide>
 
-Chúc các bạn thành công! Nếu có gặp khó khăn gì, bạn có thể nhắn tin trên fanpage của mình, hoặc comment bên dưới, mình sẽ cố gắng giúp đỡ.
+Chúc các bạn thành công! Nếu có gặp khó khăn gì, bạn có thể comment bên dưới, mình sẽ cố gắng giúp đỡ.

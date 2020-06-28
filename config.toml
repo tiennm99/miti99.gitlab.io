@@ -30,7 +30,7 @@ pygmentsUseClassic = true
     favicon_32 = "images/logo/favicon.png"
     favicon_16 = "images/logo/favicon.png"
     #gravatar = "minhtienit99@gmail.com"
-    footercontent = "Ước mơ của bạn là gì? Ước mơ của tôi là trở thành một phù thủy..."
+    footercontent = "Ước mơ của bạn là gì? Ước mơ của mình là trở thành một phù thủy..."
 
     dateformat = "January 2, 2006"
 
