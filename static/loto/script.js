@@ -28,7 +28,7 @@ function generate() {
   }
   
   for (let i = 0; i < numCols; i++) {
-    let selectedNum = randomNumbers(countNumPerCol[i], 10 * i, 10 * (i + 1));
+    let selectedNum = randomNumbers(countNumPerCol[i], 10 * i + 1, 10 * (i + 1) + 1);
     for (let j = 0; j < numRows; j++) {
       if (cell[j][i] == -1) {
         cell[j][i] = selectedNum.shift();
