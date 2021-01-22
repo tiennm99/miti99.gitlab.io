@@ -1,7 +1,6 @@
 let numRows = 9;
 let numCols = 9;
 let numPerRow = 5;
-let cell = new Array(numRows).fill(0).map(() => new Array(numCols).fill(0));
 let lotoKey = "loto_";
 
 function randomNumbers(num, from, to) {
@@ -17,6 +16,7 @@ function generate() {
   if (node.innerHTML && !confirm("Bạn có muốn tạo lại bảng không?"))
     return;
   
+  let cell = new Array(numRows).fill(0).map(() => new Array(numCols).fill(0));
   let countNumPerCol = new Array(numCols).fill(0);
   //Random cac cot co so trong tung dong
   for (let i = 0; i < numRows; i++) {
