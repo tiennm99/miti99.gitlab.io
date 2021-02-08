@@ -3,7 +3,7 @@
 	url = https://github.com/luizdepra/hugo-coder.git
 [submodule "static/cv"]
 	path = static/cv
-	url = https://gitlab.com/miti99/cv.git
+	url = git@gitlab.com:miti99/cv.git
 [submodule "static/loto"]
 	path = static/loto
-	url = https://gitlab.com/miti99/loto.git
+	url = git@gitlab.com:miti99/loto.git
