@@ -4,3 +4,6 @@
 [submodule "static/cv"]
 	path = static/cv
 	url = https://gitlab.com/miti99/cv.git
+[submodule "static/loto"]
+	path = static/loto
+	url = https://gitlab.com/miti99/loto.git
