@@ -7,3 +7,6 @@
 [submodule "static/loto"]
 	path = static/loto
 	url = https://gitlab.com/miti99/loto.git
+[submodule "static/beentogether"]
+	path = static/beentogether
+	url = https://gitlab.com/miti99/beentogether.git
