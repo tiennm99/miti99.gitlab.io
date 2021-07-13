@@ -6,7 +6,7 @@ document.addEventListener(
     // var min = document.querySelector(".min");
     // var second = document.querySelector(".second");
 
-    var startDate = new Date(2017, 9, 3);
+    var startDate = new Date(2017, 10, 3);
     days.innerText = Math.abs(Math.floor((new Date() - startDate) / 86400000));
     // countTime();
 
